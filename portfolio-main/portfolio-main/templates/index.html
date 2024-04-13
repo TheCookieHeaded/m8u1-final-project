@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <title>Глобальное Потепление</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list main-list">
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#home">О ПРОБЛЕМЕ</a>
+          </li>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#skills">НАШИ ПРИЧИНЫ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Секция превью -->
+      <section class="main__home home" id="home">
+        <h1 class="home__title">ГЛОБАЛЬНОЕ ПОТЕПЛЕНИЕ</h1>
+        <p class="home__subtitle">Одна из главных проблем нынешней Земли...</p>
+        
+      </section>
+      <!-- Секция с рассказом о проблеме -->
+      <section class="main__about about" id="about">
+        <h2 class="about__title">О проблеме:</h2>
+        <div class="about__info info-block">
+          <p class="info-block__text">
+            Глобальное потепление – это долгосрочное увеличение средней температуры на поверхности Земли из-за активности человека, в основном за счет выброса парниковых газов.
+            Этот процесс вызывает изменения в климате, включая более экстремальные погодные условия, рост уровня морей, таяние ледников и изменение экосистем.
+            Борьба с глобальным потеплением требует срочных и скоординированных усилий всех стран и общественности.
+            
+
+            Глобальное потепление обусловлено главным образом антропогенными факторами, включая выбросы парниковых газов из промышленности, автотранспорта и сельского хозяйства. 
+            Снижение площади лесов также увеличивает уровень углекислого газа в атмосфере. Кроме того, массовое производство и потребление энергии на основе ископаемых топлив способствуют усилению эффекта парникового газа. 
+            Необходимы глобальные усилия для сокращения этих выбросов и борьбы с глобальным потеплением.
+
+
+            Глобальное потепление вызывает множество проблем, включая учащение экстремальных погодных явлений, таких как ураганы, наводнения и засухи. 
+            Таяние льдов приводит к повышению уровня морей, угрожая береговым линиям и островным нациям. Изменение климата влияет на сельское хозяйство, приводя к уменьшению урожаев и продовольственной безопасности. 
+            Также наблюдается угроза для биоразнообразия, поскольку животные и растения не могут быстро адаптироваться к быстро меняющимся условиям. 
+            Необходимо принимать меры для смягчения последствий глобального потепления и адаптации к ним.  
+          </p>
+          <img
+            class="info-block__img"
+            src="../static/img/upperatticoflink.jpg"
+            alt="me"
+            width="750"
+            height="750"
+        
+          />
+        </div>
+      </section>
+      <!-- Секция с причинами -->
+      <section class="main__skills skills" id="skills">
+        <h2 class="skills__title">Причины глобального потепления из нашей рутины:</h2>
+        <form action="/" method="POST">
+          <ul class="skills__list skills-list">
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/scale_1200.jpeg"
+                alt="python"
+                width="150"
+                height="150"
+              />
+              <span class="skill__info">Сжигание и добыча ископаемого топлива, массовая их добыча. Например газовые комфорки или заправка машин.</span>
+            </li>
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/ekologiya.jpg"
+                alt="discord"
+                width="150"
+                height="150"
+              />
+              <span class="skill__info">Выброс углекислых газов в атмосферу, производственные выбросы и мусор.</span>
+            </li>
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/problemi-s-lesom.jpg"
+                alt="html"
+                width="150"
+                height="150"
+              />
+              <span class="skill__info">Массовая вырубка лесов и частые лесные пожары.</span>
+            </li>
+            <li class="skills-list__skill skill">
+              <img
+                class="skill__img"
+                src="../static/img/utilaje-agricole-second-hand-in-romania-6.jpg"
+                alt="SQL"
+                width="150"
+                height="150"
+              />
+              <span class="skill__info">Экстенсивное сельское хозяйство.</span>
+            </li>
+          </ul>
+        </form>
+          <div class="skills__project project" id="project">
+              <img class="project__img" src="../static/img/globalnoe-poteplenie-1024x683.jpg" alt="project" width="600">
+              <a class="project__link" href="">Швеция является главной страной, которая борется с глобальным потеплением</a>
+          </div>
+      </section>
+      <!-- Секция с формой обратной связи -->
+      <section class="main__feedback feedback" id="feedback">
+        <h2 class="feedback__title">Здесь вы можете оставить отзыв о сайте :) </h2>
+        <form action="" method="POST" class="feedback__form form">
+          <label for="email">
+            <input type="email" class="form__input" name="email" id="email" placeholder="Введите E-mail" required>
+          </label>
+          <label for="text">
+            <textarea name="text" class="form__input" id="text" cols="70" rows="10" required placeholder="Комментарий"></textarea>
+          </label>
+          <button class="form__button" type="submit">ОТПРАВИТЬ</button>
+        </form>
+      </section>
+    </main>
+    <!-- Подвал для ссылок на соц-сети -->
+    <footer>
+
+    </footer>
+  </body>
+</html>
